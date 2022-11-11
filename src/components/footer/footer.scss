@@ -1,0 +1,36 @@
+footer {
+  background-color: #1d1d1e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem -4rem 0rem;
+  padding: 2rem 4rem;
+  color: white;
+  //   width: 100vw;
+
+  div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    row-gap: 1rem;
+    h4 {
+      font-weight: 700;
+    }
+
+    h6 {
+      color: #f1f3f9;
+      font-weight: 400;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    flex-direction: column;
+    row-gap: 2rem;
+
+    div {
+      align-items: center;
+    }
+  }
+}
