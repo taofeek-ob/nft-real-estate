@@ -75,6 +75,7 @@
     width: 100%;
     img {
       width: 100%;
+      object-fit: cover;
 
       // height: 100%;
       //   border: 2px solid green;
@@ -127,6 +128,7 @@
     // }
   }
 }
+
 .showcase_wrapper {
   width: auto;
   display: flex;

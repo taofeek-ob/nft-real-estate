@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "../../assets/svg/Star.svg";
+
 const Rate = () => {
   return (
     <svg

@@ -1,0 +1,38 @@
+import {
+  estate1,
+  estate2,
+  estate3,
+  estate4,
+  estate5,
+  estate6,
+  estate7,
+  estate8,
+  estate9,
+  estate10,
+  estate11,
+  estate12,
+  estate13,
+  estate14,
+  estate15,
+  estate16,
+} from "../../assets/images/Estate";
+
+const dataMarket = [
+  estate1,
+  estate2,
+  estate3,
+  estate4,
+  estate5,
+  estate6,
+  estate7,
+  estate8,
+  estate9,
+  estate10,
+  estate11,
+  estate12,
+  estate13,
+  estate14,
+  estate15,
+  estate16,
+];
+export default dataMarket;

@@ -6,16 +6,16 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Router>
+    <Router>
+      <div className="App">
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/place-to-stay" element={<Market />} />
         </Routes>
-      </Router>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

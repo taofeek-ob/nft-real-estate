@@ -1,6 +1,8 @@
 import React from "react";
 import { HeroImage, Mbtoken, Metamask, Opensea } from "../../assets/images/";
-import Rating from "../../components/card/Rating";
+
+import Showcase from "../../components/card/Showcase";
+
 import Data from "./data";
 import "./home.scss";
 const Hero = () => {
@@ -54,35 +56,18 @@ const Banner = () => {
   );
 };
 
-const Showcase = () => {
-  return (
-    <div className="showcase_wrapper">
-      <h1>Inspiration for your next adventure</h1>
-      <div className="showcase">
-        {Data.map((data, index) => {
-          return (
-            <div key={index}>
-              <img src={data} alt="" />
-              <div className="details">
-                <div>
-                  <span>Desert King</span>
-                  <span>250km Away</span>
-                  <div className="rating">
-                    <Rating amount={5} />
-                  </div>
-                </div>
-                <div>
-                  <span style={{ fontWeight: "bold" }}>1MBT Per Night</span>
-                  <span>available for 2 weeks stay</span>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-};
+// const Showcase = () => {
+//   return (
+//     <div className="showcase_wrapper">
+//       <h1>Inspiration for your next adventure</h1>
+//       <div className="showcase">
+//         {Data.map((data, index) => {
+//           return <Card data={data} key={index} />;
+//         })}
+//       </div>
+//     </div>
+//   );
+// };
 
 const About = () => {
   return (
@@ -105,7 +90,7 @@ const Home = () => {
     <>
       <Hero />
       <Banner />
-      <Showcase />
+      <Showcase data={Data} />
       <About />
     </>
   );
