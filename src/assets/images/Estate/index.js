@@ -1,0 +1,16 @@
+export { default as estate1 } from "./estate-1.png";
+export { default as estate2 } from "./estate-2.png";
+export { default as estate3 } from "./estate-3.png";
+export { default as estate4 } from "./estate-4.png";
+export { default as estate5 } from "./estate-5.png";
+export { default as estate6 } from "./estate-6.png";
+export { default as estate7 } from "./estate-7.png";
+export { default as estate8 } from "./estate-8.png";
+export { default as estate9 } from "./estate-9.png";
+export { default as estate10 } from "./estate-10.png";
+export { default as estate11 } from "./estate-11.png";
+export { default as estate12 } from "./estate-12.png";
+export { default as estate13 } from "./estate-13.png";
+export { default as estate14 } from "./estate-14.png";
+export { default as estate15 } from "./estate-15.png";
+export { default as estate16 } from "./estate-16.png";
