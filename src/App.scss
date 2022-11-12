@@ -6,15 +6,17 @@
   // overflow-x: hidden;
   // border: 1px solid red !important;
 }
-
-.App {
-  width: 100vw;
-  display: block;
-  height: auto;
-  //   padding: 2rem 4rem 0;
+body {
   font-family: "Red Rose", cursive;
   color: #434343;
   background-color: #f5f5f5;
+  width: 100vw;
+}
+.App {
+  width: auto;
+  display: block;
+
+  //   padding: 2rem 4rem 0;
 
   //   border: 2px solid red;
 }
