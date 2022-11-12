@@ -118,6 +118,14 @@
   color: white;
   padding: 15px;
   margin-block: 2rem;
+  div {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    // img {
+    //   border: 1px solid red;
+    // }
+  }
 }
 .showcase_wrapper {
   width: auto;

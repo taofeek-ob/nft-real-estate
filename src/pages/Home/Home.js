@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../../assets/images/hero.png";
+import { HeroImage, Mbtoken, Metamask, Opensea } from "../../assets/images/";
 import Rating from "../../components/card/Rating";
 import Data from "./data";
 import "./home.scss";
@@ -38,9 +38,18 @@ const Hero = () => {
 const Banner = () => {
   return (
     <div className="banner">
-      <h3>METAMASK</h3>
-      <h3>MBTOKEN</h3>
-      <h3>OPENSEA</h3>
+      <div>
+        <img src={Mbtoken} alt="" style={{ marginRight: "-8px" }} />
+        <h3>MbToken</h3>
+      </div>
+      <div>
+        <img src={Metamask} alt="" />
+        <h3>Metamask</h3>
+      </div>
+      <div>
+        <img src={Opensea} alt="" />
+        <h3>Opensea</h3>
+      </div>
     </div>
   );
 };
