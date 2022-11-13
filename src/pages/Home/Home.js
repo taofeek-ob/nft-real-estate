@@ -90,7 +90,11 @@ const Home = () => {
     <>
       <Hero />
       <Banner />
-      <Showcase data={Data} />
+      <div className="showcase_wrapper">
+        <h1>Inspiration for your next adventure</h1>
+        <Showcase data={Data} />
+      </div>
+
       <About />
     </>
   );
