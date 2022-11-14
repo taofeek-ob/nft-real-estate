@@ -2,9 +2,12 @@
   display: flex;
   width: auto;
 
-  // padding: 0 4rem;
+  padding: 0 4rem;
   justify-content: space-between;
 
+  @media screen and (max-width: 400px) {
+    padding-inline: 2rem;
+  }
   gap: 10px;
   .hero_text {
     display: flex;
@@ -110,15 +113,26 @@
 }
 
 .banner {
-  width: calc(100% + 8rem);
-  margin: 2rem -4rem;
+  // width: calc(100% + 8rem);
+  margin-block: 2rem;
+  // margin-right: -4rem;
+  // margin-left: -4rem;
+
+  // width: 100%;
+  // margin-left: 50%;
+  // transform: translateX(-50%);
+  // max-width: 100%;
 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #a02279;
   color: white;
-  padding: 15px;
+  padding-block: 15px;
+  // @media screen and (max-width: 400px) {
+  //   margin: 0rem -1rem;
+  // }
+
   div {
     display: flex;
     align-items: center;
@@ -135,11 +149,13 @@
   flex-direction: column;
   justify-content: center;
   row-gap: 1rem;
-  padding-block: 2rem;
+  padding: 2rem 4rem;
   text-align: center;
   will-change: transform;
   transition: all 0.3s ease-in;
-
+  @media screen and (max-width: 400px) {
+    padding-inline: 2rem;
+  }
   .showcase {
     display: flex;
     justify-content: center;

@@ -2,11 +2,13 @@ header {
   width: auto;
 
   margin-bottom: 5rem;
-  // padding: 2rem 0rem;
+  padding: 2rem 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  @media screen and (max-width: 400px) {
+    padding-inline: 2rem;
+  }
   img {
     width: 120px;
   }
@@ -41,5 +43,6 @@ header {
     background-color: #a02279;
     padding: 10px 15px;
     color: white;
+    cursor: pointer;
   }
 }
