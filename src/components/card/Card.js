@@ -3,7 +3,7 @@ import Rating from "./Rating";
 
 const Card = ({ element }) => {
   return (
-    <div>
+    <div className="card_div">
       <img src={element} alt="" />
       <div className="details">
         <div>

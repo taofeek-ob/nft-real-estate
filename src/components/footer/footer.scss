@@ -1,12 +1,11 @@
 footer {
   background-color: #1d1d1e;
-  width: auto;
+  width: calc(100% + 8rem);
+  margin: 0rem -4rem;
 
   display: flex;
 
-  gap: 1rem;
-
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 
@@ -15,6 +14,7 @@ footer {
   //   width: 100vw;
 
   div {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -30,12 +30,13 @@ footer {
     }
   }
 
-  @media screen and (max-width: 550px) {
-    flex-direction: column;
-    row-gap: 2rem;
+  // @media screen and (max-width: 550px) {
+  //   // flex-direction: column;
+  //   // row-gap: 2rem;
+  //   padding-inline: auto;
 
-    div {
-      align-items: center;
-    }
-  }
+  //   // div {
+  //   //   align-items: center;
+  //   // }
+  // }
 }
