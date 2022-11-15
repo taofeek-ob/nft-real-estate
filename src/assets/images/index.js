@@ -5,3 +5,4 @@ export { default as Opensea } from "./Opensea.svg";
 export { default as HeroImage } from "./hero.png";
 export { default as ModalMetamask } from "./ModalMetamask.svg";
 export { default as WalletConnect } from "./WalletConnect.svg";
+export { default as FooterLogo } from "./FooterLogo.svg";
