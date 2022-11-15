@@ -14,9 +14,6 @@ const Header = () => {
     checkbox.current.checked = false;
   };
 
-  // if ((checkbox.current.checked = true)) {
-  //   body.style = `overflow-y:hidden`;
-  // }
   const showModal = () => {
     setOpen(true);
 
@@ -36,8 +33,6 @@ const Header = () => {
             id="main-navigation-toggle"
             className="btn btn--close"
             title="Toggle main navigation"
-            // checked={check}
-            // onChange={(e) => setCheck(!check)}
           />
           <label for="main-navigation-toggle">
             <span></span>
@@ -69,7 +64,10 @@ const Header = () => {
           </nav>
         </div>
 
-        <img src={Logo} alt="" />
+        <Link to="/">
+          <img src={Logo} alt="" />
+        </Link>
+
         <div className="wrapper">
           <Link to="/">Home</Link>
           <Link to="/place-to-stay">Place to stay</Link>
