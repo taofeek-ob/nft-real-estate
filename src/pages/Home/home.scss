@@ -5,7 +5,7 @@
   padding: 0 4rem;
   justify-content: space-between;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     padding-inline: 2rem;
   }
   gap: 10px;
@@ -153,7 +153,7 @@
   text-align: center;
   will-change: transform;
   transition: all 0.3s ease-in;
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     padding-inline: 2rem;
   }
   .showcase {
