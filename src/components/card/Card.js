@@ -1,6 +1,6 @@
 import React from "react";
 import Rating from "./Rating";
-import { AiOutlineHeart } from "react-icons/ai";
+
 import Heart from "./Heart";
 const Card = ({ element }) => {
   return (

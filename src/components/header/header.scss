@@ -214,8 +214,8 @@ header {
   z-index: 1;
 
   > .menu__item {
-    font-family: var(--font-family-secondary);
     font-size: 10vmin;
+    cursor: pointer;
   }
 }
 

@@ -50,26 +50,25 @@ const Header = () => {
                 </Link>
               </li>
               <li className="menu__item">
-                <a className="menu__link" href="#0" onClick={nav}>
+                <span className="menu__link" onClick={nav}>
                   NFts
-                </a>
+                </span>
               </li>
               <li className="menu__item">
-                <a className="menu__link" href="#0" onClick={nav}>
+                <span className="menu__link" onClick={nav}>
                   Community
-                </a>
+                </span>
               </li>
               <li className="menu__item">
-                <a
+                <span
                   className="menu__link mobile_wallet"
-                  href="#0"
                   onClick={() => {
                     nav();
                     showModal();
                   }}
                 >
                   Connect Wallet
-                </a>
+                </span>
               </li>
             </ul>
           </nav>
