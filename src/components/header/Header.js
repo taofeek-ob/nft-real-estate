@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Logo } from "../../assets/images/";
 import { Link } from "react-router-dom";
 import "./header.scss";
@@ -22,6 +22,7 @@ const Header = () => {
     setOpen(false);
     body.style = `overflow-y:auto`;
   };
+
   return (
     <>
       <header>

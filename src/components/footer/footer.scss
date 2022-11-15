@@ -36,7 +36,7 @@ footer {
 
   .footer_logo {
     width: min-content;
-    gap: 3rem;
+    gap: 3.5rem;
     img {
       width: 70%;
     }
@@ -55,7 +55,6 @@ footer {
     }
 
     @media screen and (max-width: 430px) {
-      // order: 4;
       align-items: center;
       justify-content: center;
       gap: 2rem;
@@ -70,6 +69,5 @@ footer {
   }
   @media screen and (max-width: 400px) {
     padding-inline: 2rem;
-    // align-items: center;
   }
 }

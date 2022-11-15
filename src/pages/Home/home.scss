@@ -109,19 +109,21 @@
   margin-block: 2rem;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-color: #a02279;
   color: white;
   padding-block: 15px;
-  // @media screen and (max-width: 400px) {
-  //   margin: 0rem -1rem;
-  // }
+  font-size: 3vmin;
 
   div {
     display: flex;
     align-items: center;
     column-gap: 4px;
+
+    img {
+      width: 40%;
+    }
   }
 }
 
