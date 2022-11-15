@@ -117,7 +117,7 @@ header {
   ~ label {
     cursor: pointer;
     display: block;
-    z-index: 100;
+
     @media screen and (min-width: 800px) {
       display: none;
     }
@@ -129,7 +129,6 @@ header {
       transition: transform calc(var(--td) * 3) var(--te);
       width: 2rem;
 
-      z-index: 5;
       &::before,
       &::after {
         background-color: #a02279;
@@ -164,6 +163,7 @@ header {
   span {
     position: fixed;
     transform: rotate(1turn);
+    z-index: 5;
 
     &::before {
       transform: rotate(45deg);

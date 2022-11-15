@@ -1,10 +1,14 @@
 import React from "react";
 import Rating from "./Rating";
-
+import { AiOutlineHeart } from "react-icons/ai";
+import Heart from "./Heart";
 const Card = ({ element }) => {
   return (
     <div className="card_div">
       <img src={element} alt="" />
+      <span className="heart">
+        <Heart />
+      </span>
       <div className="details">
         <div>
           <span>Desert King</span>
