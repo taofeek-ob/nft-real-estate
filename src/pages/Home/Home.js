@@ -1,5 +1,11 @@
 import React from "react";
-import { HeroImage, Mbtoken, Metamask, Opensea } from "../../assets/images/";
+import {
+  HeroImage,
+  Mbtoken,
+  Metamask,
+  NFTCardS,
+  Opensea,
+} from "../../assets/images/";
 
 import Showcase from "../../components/card/Showcase";
 
@@ -56,32 +62,21 @@ const Banner = () => {
   );
 };
 
-// const Showcase = () => {
-//   return (
-//     <div className="showcase_wrapper">
-//       <h1>Inspiration for your next adventure</h1>
-//       <div className="showcase">
-//         {Data.map((data, index) => {
-//           return <Card data={data} key={index} />;
-//         })}
-//       </div>
-//     </div>
-//   );
-// };
-
 const About = () => {
   return (
     <div className="about" id="about">
-      <div>
-        <h2>Metabnb NFTs</h2>
-        <h5>
+      <div className="about_text">
+        <h1>Metabnb NFTs</h1>
+        <p>
           Discover our NFT gift cards collection. Loyal customers gets amazing
           gift cards which are traded as NFTs. These NFTs gives our cutomer
           access to loads of our exclusive services.
-        </h5>
+        </p>
         <button>Learn More</button>
       </div>
-      <div>test</div>
+      <div className="img_wrapper">
+        <img src={NFTCardS} alt="NFT Cards Stacked" />
+      </div>
     </div>
   );
 };
