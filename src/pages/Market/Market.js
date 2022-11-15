@@ -1,8 +1,9 @@
-import React from "react";
-import Card from "../../components/card/Card";
+import React, { useRef, useState } from "react";
+
 import Showcase from "../../components/card/Showcase";
 import dataMarket from "./dataMarket";
-
+import { GiSettingsKnobs } from "react-icons/gi";
+import { BsChevronDown } from "react-icons/bs";
 import "./market.scss";
 const Market = () => {
   return (
@@ -16,7 +17,25 @@ const Market = () => {
         <button>Carbine</button>
         <button>off-grid</button>
         <button>Farm</button>
-        <button>Location</button>
+
+        <div class="dropdown">
+          <button className="dropbtn">
+            Filter by: <BsChevronDown />
+          </button>
+          <div id="myDropdown" className="dropdown-content">
+            <span>Restaurant</span>
+            <span>Cottage</span>
+            <span>Castle</span>
+            <span>fantast</span>
+            <span>Custom</span>
+            <span>beach</span>
+            <span>off-grid</span>
+            <span>Farm</span>
+          </div>
+        </div>
+        <button className="location">
+          Location <GiSettingsKnobs />
+        </button>
       </div>
       <Showcase data={dataMarket} />
     </div>
