@@ -371,3 +371,9 @@ header {
     opacity: 0;
   }
 }
+
+.wallet {
+  @media screen and (max-width: 370px) {
+    display: none;
+  }
+}

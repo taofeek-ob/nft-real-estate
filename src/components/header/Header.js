@@ -5,12 +5,11 @@ import "./header.scss";
 import Modal from "../modal/Modal";
 const Header = () => {
   const [open, setOpen] = useState(false);
-  // const [check, setCheck] = useState(false);
+
   const checkbox = useRef();
   const body = document.querySelector("body");
 
   const nav = () => {
-    // setCheck(!check);
     checkbox.current.checked = false;
   };
 
@@ -60,6 +59,18 @@ const Header = () => {
                   Community
                 </a>
               </li>
+              <li className="menu__item">
+                <a
+                  className="menu__link mobile_wallet"
+                  href="#0"
+                  onClick={() => {
+                    nav();
+                    showModal();
+                  }}
+                >
+                  Connect Wallet
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -74,7 +85,9 @@ const Header = () => {
           <Link to="/">NFTs</Link>
           <Link to="/">Community</Link>
         </div>
-        <button onClick={showModal}>Connect Wallet</button>
+        <button className="wallet" onClick={showModal}>
+          Connect Wallet
+        </button>
       </header>
       <Modal show={open} handleClose={closeModal} />
     </>
