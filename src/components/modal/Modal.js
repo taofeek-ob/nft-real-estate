@@ -16,19 +16,23 @@ const Modal = ({ handleClose, show }) => {
         <div className="border" />
         <div className="modal_wallet">
           <p>Choose your preferred wallet:</p>
-          <button>
+          <button style={{ backgroundColor: "#F8F9FA" }}>
             <span>
-              <img src={ModalMetamask} alt="" />
+              <img src={ModalMetamask} alt="Metamask logo" />
               Metamask
             </span>
             <span>
               <GrFormNext />
             </span>
           </button>
-          <button>
+          <button style={{ backgroundColor: "white" }}>
             <span>
-              <img src={WalletConnect} alt="" />
-              Wallet Connect
+              <img
+                src={WalletConnect}
+                alt="Wallet Connect Logo"
+                style={{ marginRight: "5px" }}
+              />
+              WalletConnect
             </span>
 
             <span>
