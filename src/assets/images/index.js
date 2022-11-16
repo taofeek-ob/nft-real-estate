@@ -1,4 +1,4 @@
-export { default as Logo } from "./logo.png";
+export { default as Logo } from "./logo.svg";
 export { default as Mbtoken } from "./MbToken.svg";
 export { default as Metamask } from "./Metamask.svg";
 export { default as Opensea } from "./Opensea.svg";
