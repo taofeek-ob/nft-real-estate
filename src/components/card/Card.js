@@ -18,7 +18,7 @@ const Card = ({ element }) => {
           </div>
         </div>
         <div>
-          <span style={{ fontWeight: "bold" }}>1MBT Per Night</span>
+          <span style={{ fontWeight: "700" }}>1MBT Per Night</span>
           <span>available for 2 weeks stay</span>
         </div>
       </div>

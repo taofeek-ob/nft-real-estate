@@ -22,11 +22,13 @@ footer {
     h4 {
       font-weight: 700;
       padding-bottom: 6px;
+      font-size: 18px;
     }
 
     h6 {
       color: #f1f3f9;
       font-weight: 400;
+      font-size: 14px;
     }
 
     @media screen and (max-width: 430px) {
@@ -45,13 +47,14 @@ footer {
       display: flex;
       align-items: flex-start;
       justify-content: flex-start;
-      gap: 2.5rem;
+      gap: 3rem;
     }
 
     > span {
       display: flex;
       align-items: center;
       justify-content: center;
+      column-gap: 10px;
     }
 
     @media screen and (max-width: 430px) {

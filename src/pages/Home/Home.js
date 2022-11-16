@@ -34,10 +34,9 @@ const Hero = () => {
           <button>Search</button>
         </div>
       </div>
-      {/* <img src={HeroImage} alt="" /> */}
 
       <div className="img_wrapper">
-        <img src={HeroImage} alt="" />
+        <img src={HeroImage} alt="Hero" />
       </div>
     </div>
   );
@@ -47,15 +46,15 @@ const Banner = () => {
   return (
     <div className="banner">
       <div>
-        <img src={Mbtoken} alt="" style={{ marginRight: "-8px" }} />
+        <img src={Mbtoken} alt="MbToken logo" style={{ marginRight: "-8px" }} />
         <h3>MbToken</h3>
       </div>
       <div>
-        <img src={Metamask} alt="" />
+        <img src={Metamask} alt="Metamask logo" />
         <h3>Metamask</h3>
       </div>
       <div>
-        <img src={Opensea} alt="" />
+        <img src={Opensea} alt="Opensea Logo" />
         <h3>Opensea</h3>
       </div>
     </div>

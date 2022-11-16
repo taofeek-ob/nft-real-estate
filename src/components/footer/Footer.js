@@ -17,7 +17,8 @@ const footer = () => {
         </div>
 
         <span>
-          <CgCopyright fill="white" /> 2022 Metabnb
+          <CgCopyright fill="white" />
+          2022 Metabnb
         </span>
       </div>
       <div>
