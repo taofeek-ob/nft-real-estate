@@ -14,8 +14,8 @@ const Market = () => {
         <button>Castle</button>
         <button>fantast city</button>
         <button>beach</button>
-        <button>Carbine</button>
-        <button>off-grid</button>
+        <button>Carbins</button>
+        <button>Off-grid</button>
         <button>Farm</button>
 
         <div class="dropdown">
@@ -29,7 +29,8 @@ const Market = () => {
             <span>fantast</span>
             <span>Custom</span>
             <span>beach</span>
-            <span>off-grid</span>
+            <span>Carbins</span>
+            <span>Off-grid</span>
             <span>Farm</span>
           </div>
         </div>
